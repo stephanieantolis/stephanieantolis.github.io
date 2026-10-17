@@ -1,0 +1,38 @@
+/* Early-web style. Change these colors to restyle every page. */
+body {
+  background: #0b0b2a;       /* page background */
+  color: #e8e4d0;            /* text */
+  font-family: "Times New Roman", Times, serif;
+  font-size: 18px;
+  line-height: 1.4;
+  margin: 0 auto;
+  max-width: 44em;
+  padding: 16px 20px 40px;
+}
+a:link { color: #7fa6ff; }
+a:visited { color: #c9a0ff; }
+a:hover { color: #ffff66; }
+a:focus-visible { outline: 2px solid #ffff66; }
+
+h1 { text-align: center; font-size: 2.2em; font-weight: normal; margin: 20px 0 4px; }
+h2 { font-size: 1.4em; margin: 24px 0 2px; color: #ffe27a; }
+.tagline { text-align: center; font-style: italic; margin: 0 0 14px; }
+hr { border: 0; border-top: 2px groove #6a6a9a; margin: 18px 0; }
+
+/* The row of links at the top and bottom */
+.nav { text-align: center; font-size: .95em; }
+
+.date { font-size: .85em; color: #a9a58f; margin: 0 0 8px; }
+.poem p { white-space: pre-line; margin: 8px 0 8px 2em; }
+.small { font-size: .85em; text-align: center; color: #a9a58f; }
+
+/* Photo and art thumbnails with old-school beveled frames */
+.gallery { text-align: center; }
+.gallery figure { display: inline-block; margin: 10px; vertical-align: top; width: 200px; }
+.gallery img, .box { width: 200px; height: 150px; object-fit: cover; border: 3px ridge #8a8ab0; display: block; }
+.box { background: #17174a; line-height: 150px; font-size: .9em; }
+.gallery figcaption { font-size: .85em; margin-top: 4px; }
+
+/* Home page list */
+dl dt { margin-top: 12px; }
+dl dd { margin: 0 0 0 2em; font-size: .95em; }
